@@ -2,7 +2,7 @@ import socket
 
 
 def client_program():
-    host = input("enter ip or type no to run on your own machine")
+    host = input("enter ip or type no to run on your own machine\n")
     if(host == 'no'):
         host = socket.gethostname() # as both code is running on same pc
     port = 5000  # socket server port number
